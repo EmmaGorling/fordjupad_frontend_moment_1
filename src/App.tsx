@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import TvShows from './components/TvShows';
 
 function App() {
-  const [title, setTitle] = useState("Min serie-lista")
+  const [title, setTitle] = useState("Mina serier")
   return (
     <>
       <Header siteTitle={title} />

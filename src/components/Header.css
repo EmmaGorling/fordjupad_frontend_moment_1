@@ -1,5 +1,7 @@
+@import url(../variables.css);
 h1 {
     text-align: center;
+    line-height: 2em;
 }
 #hero-image {
     display: block;
@@ -7,4 +9,22 @@ h1 {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (min-width: 650px) {
+    #hero-image {
+        height: 250px;
+    }
+}
+
+@media (min-width: 900px) {
+    #hero-image {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hero-image {
+        height: 400px;
+    }
 }

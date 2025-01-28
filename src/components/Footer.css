@@ -1,8 +1,12 @@
 footer {
     margin-top: auto;
     text-align: center;
+    border-top: 1px solid var(--red);
 }
 footer a {
     color: black;
     text-decoration-thickness: 1px;
+}
+footer a:hover {
+    color: var(--red);
 }

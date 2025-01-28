@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    max-width: 800px;
+}
+li {
+    display: block;
+    border: 2px solid purple;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 0.5em 1em;
+    width: 25ch;
+}
+h2 {
+    font-size: 1.3em;
+    text-align: center;
+    height: 2.8em;
+}
+
+.semibold {
+    font-weight: 600;
+}
+.seen, .seasons{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-check {
+    color: green;
+}

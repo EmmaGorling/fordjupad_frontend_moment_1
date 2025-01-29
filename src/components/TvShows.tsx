@@ -1,6 +1,7 @@
 import React from 'react'
 import './TvShows.css'
 
+// Interface for structure of tv-show
 interface Show {
     title: string;
     seen: boolean;
@@ -8,7 +9,7 @@ interface Show {
 }
 
 const TvShows = () => {
-    
+    // Array with tv-shows, using the interface
     const shows: Show[] = [
         { title: "The Walking Dead", seen: true, seasons: 11},
         { title: "Yellowstone", seen: true, seasons: 5 },
@@ -19,6 +20,8 @@ const TvShows = () => {
         { title: "Lost", seen: true, seasons: 6 }, 
         { title: "The Office", seen: false, seasons: 9 }
     ]
+
+    // Return ul-list, iterate trough array and add shows as li-elements
     return (
         <ul>
             {

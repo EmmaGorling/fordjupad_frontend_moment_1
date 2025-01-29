@@ -31,7 +31,7 @@ const TvShows = () => {
                         <p className='seasons'><span className='semibold'>Antal säsonger:</span> {show.seasons}</p>
                         <p className='seen'><span className='semibold'>Har sett:</span> {show.seen ? (
                             <i className="fa-solid fa-check"></i>
-                        ) : ('inte än')}
+                        ) : ('Inte än')}
                         </p>
                     </li>
                 ))

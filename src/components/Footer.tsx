@@ -1,5 +1,5 @@
 // FOOTER COMPONENT
-import React from 'react'
+
 import './Footer.css'
 
 // Get site-title and use it in the footer

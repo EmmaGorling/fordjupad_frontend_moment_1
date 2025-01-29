@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './TvShows.css'
 
 // Interface for structure of tv-show

@@ -1,6 +1,6 @@
 
 // HEADER COMPONENT
-import React from 'react'
+
 import './Header.css'
 import heroImage from '../assets/tv-apps.jpg' // Import image for banner
 
